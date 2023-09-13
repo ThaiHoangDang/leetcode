@@ -1,0 +1,4 @@
+- use 2 pointers, one slow and one fast
+- slow ptr move one move a time
+- fast otr move 2 moves a time
+- there is a cycle of 2 pointers meet each other
