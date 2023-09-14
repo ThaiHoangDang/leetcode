@@ -4,7 +4,7 @@
 using namespace std;
 
 // runtime: O(n)
-// space: O(n)
+// space: O(1)
 
 struct ListNode {
     int val;
