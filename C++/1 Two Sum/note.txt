@@ -1,0 +1,2 @@
+- use unordered_map to store value - position
+- iterate through the list again, check if target - curNum is in the table
