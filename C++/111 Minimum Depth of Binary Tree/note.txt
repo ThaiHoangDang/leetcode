@@ -1,0 +1,2 @@
+- using BFS strategy
+- as soon as there is a node that doesn't have any child -> return
