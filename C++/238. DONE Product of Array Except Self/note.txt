@@ -1,0 +1,11 @@
+- 1.cc is easier to understand, 2.cc is just 1.cc but utilize the return array
+
+- use 2 arrays: one starting from left and one starting from right
+- combine them
+
+Example: 
+
+input: 1 2 3 4 5
+
+when 1 2 [3] 4 5, the product is left x right = 2 x 20 = 40
+when 1 2 3 [4] 5, the product is left x right = 6 x 5 = 30
