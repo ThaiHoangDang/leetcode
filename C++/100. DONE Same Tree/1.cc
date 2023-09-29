@@ -3,7 +3,7 @@
 using namespace std;
 
 // runtime: O(n)
-// space: O(1)
+// space: O(n)
 
 struct TreeNode {
     int val;
