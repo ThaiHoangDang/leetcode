@@ -1,4 +1,0 @@
-Difficulty: Easy
-
-Time complexity:
-Space complexity:
