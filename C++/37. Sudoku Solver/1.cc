@@ -19,9 +19,10 @@ public:
             if (i != y && board[i][x] == board[y][x]) return false;
         }
 
+        // check box
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                
+                if ((stepY * 3 + i != y || stepX * 3 + j != x) && board[stepY * 3 + i][stepX * 3 + j] == board[y][x]) return false;
             }
         }
 
@@ -30,5 +31,13 @@ public:
 
     void solveSudoku(vector<vector<char>>& board) {
         
+        for (int y = 0; y < board.size(); y++) {
+            for (int x = 0; y < board.size(); x++) {
+
+                if (board[y][x] == '.') {
+                                        
+                }
+            }
+        }
     }
 };
