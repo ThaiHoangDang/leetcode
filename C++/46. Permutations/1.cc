@@ -7,7 +7,11 @@ using namespace std;
 
 class Solution {
 public:
-    int numIslands(vector<vector<char>>& grid) {
+    vector<vector<int>> permute(vector<int>& nums) {
+        vector<vector<int>> result;
+
         
+
+        return result;
     }
 };

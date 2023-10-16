@@ -35,7 +35,7 @@ public:
             for (int x = 0; y < board.size(); x++) {
 
                 if (board[y][x] == '.') {
-                                        
+                    
                 }
             }
         }
