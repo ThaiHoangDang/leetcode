@@ -1,7 +1,7 @@
 #include <vector>
 using namespace std;
 
-// approach: DFS
+// approach: BFS
 // time: O(n)
 // space: O(n)
 
