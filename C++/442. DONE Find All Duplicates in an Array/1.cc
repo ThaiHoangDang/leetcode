@@ -1,7 +1,7 @@
 #include <vector>
 using namespace std;
 
-// approach:
+// approach: Array traversing, move numbers to their correct position based on their values
 // time: O(n)
 // space: O(1)
 
