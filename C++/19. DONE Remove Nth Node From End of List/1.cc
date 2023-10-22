@@ -2,6 +2,7 @@
 
 using namespace std;
 
+// HAY!!!
 // arroach: let fast goes first n node, then move two ptrs together until fast reaches the end!!!
 // runtime: O(n)
 // space: O(1)
