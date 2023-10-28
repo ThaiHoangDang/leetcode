@@ -5,7 +5,7 @@ using namespace std;
 // time:
 // space:
 
-bool notIn(int x, int y, vector<vector<int>> item) {
+bool notIn(int x, int y, vector<vector<int>> &item) {
     for (auto i : item) {
         if (i[0] == x && i[1] == y) return false;
     }
