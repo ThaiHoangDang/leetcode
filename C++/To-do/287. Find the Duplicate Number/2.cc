@@ -16,7 +16,16 @@ public:
             if (index1 == index2) break;
         }
 
-        for (int i = 0) 
+        index1 = nums[0];
+
+        while (true) {
+            index1 = nums[index1];
+            index2 = nums[index2];
+
+            if (index1 == index2) break;
+        }
+
+        return index1;
     }
 };
 
