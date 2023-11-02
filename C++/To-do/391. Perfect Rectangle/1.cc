@@ -3,7 +3,7 @@
 using namespace std;
 
 // approach:
-// time:
+// time: TO SLOW!
 // space:
 
 
