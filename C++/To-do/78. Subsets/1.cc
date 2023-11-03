@@ -8,18 +8,14 @@ using namespace std;
 
 class Solution {
 public:
-    void findSubsets(vector<int> nums, vector<vector<int>> &answer) {
-        answer.emplace_back(nums);
+    vector<vector<int>> subsets(vector<int>& nums) {
+        vector<vector<int>> answer; answer.emplace_back(vector<int>{});
+        vector<int> holder;
 
         for (int i = 0; i < nums.size(); i++) {
+            answer.emplace_back(vector<int>{nums[i]});
             
         }
-    }
-
-    vector<vector<int>> subsets(vector<int>& nums) {
-        vector<vector<int>> answer;
-
-        findSubsets(nums, answer);
 
         return answer;        
     }
