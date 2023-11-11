@@ -1,6 +1,10 @@
 #include <vector>
 using namespace std;
 
+// approach: 2 stacks
+// time: O(1)
+// space: O(n)
+
 class MinStack {
     int min = 0;
     vector<int> stack; // a stack pushed values
