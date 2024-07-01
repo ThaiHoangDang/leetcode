@@ -16,7 +16,8 @@ bool notIn(int x, int y, vector<vector<int>> &item) {
 
 bool recSearch(int x, int y, vector<vector<int>> items, vector<vector<char>>& board, string word) {
 
-    if (x >= 0 && x < board[0].size() && y >= 0 && y < board.size() && notIn(x, y, items) && board[y][x] == word[items.size()]) {
+    if (x >= 0 && x < board[0].size() && y >= 0 && y < board.size() 
+            && notIn(x, y, items) && board[y][x] == word[items.size()]) {
         items.emplace_back(vector<int> {x, y});
 
         if (items.size() == word.length()) return true;
@@ -39,7 +40,7 @@ public:
         for (int i = 0; i < board.size(); i++) {
             for (int j = 0; j < board[0].size(); j++) {
                 if (board[i][j] == word[0]) 
-                    if (recSearch(j, i, vector<vector<int>> {{}}, board, word)) return true;
+                    if (recSearch(j, i, vector<vector<int>> {}, board, word)) return true;
             }
         }
 
